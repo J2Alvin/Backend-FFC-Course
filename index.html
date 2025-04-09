@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Lightbox Viewer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main>
+    <h1>Lightbox Viewer</h1>
+    <p>Click any photo</p>
+
+    <div class="gallery">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/stonehenge-thumbnail.jpg" class="gallery-item" alt="Stonehenge">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/storm-thumbnail.jpg" class="gallery-item" alt="Storm">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/trees-thumbnail.jpg" class="gallery-item" alt="Trees">
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <span id="close">&times;</span>
+      <img id="lightbox-image" src="" alt="Enlarged Image">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
