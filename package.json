@@ -1,6 +1,5 @@
 {
-    "name": "fcc-learn-npm-package-json",
-    "version": "0.1",
-    "author": "Alvin Joyce"
-    
+  "name": "fcc-learn-npm-package-json",
+  "version": "0.1",
+  "author": "Alvin Joyce"
 }
